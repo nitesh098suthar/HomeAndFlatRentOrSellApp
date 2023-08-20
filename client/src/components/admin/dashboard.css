@@ -1,0 +1,25 @@
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+}
+.vh100 {
+    height: 90vh;
+    margin:  0 5rem;
+}
+.my-table {
+  width: 100%;
+  text-align: center;
+}
+.my-table th {
+  background-color: rgb(255, 218, 148);
+  padding: 0.5rem;
+}
+.my-table tr:nth-child(even) {
+  background-color: rgb(240, 240, 240);
+}
+.my-table tr:nth-child(odd) {
+  background-color: rgb(253, 253, 253);
+}
+.my-table td {
+  padding: 0.5rem;
+}

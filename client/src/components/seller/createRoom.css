@@ -1,0 +1,59 @@
+.create-room-parent input::placeholder {
+color: rgba(0,0,0,0.2);
+}
+.img-input {
+    padding: 1rem;
+    background-color: orange;
+    color: #fff;
+}
+.seller-parent{
+    display: flex;
+    width: 100%;
+}
+.create-room-parent {
+    width: 70vw;
+    display: grid;
+    place-items: center;
+    padding: 3rem;
+}
+.create-room-parent form {
+    width: 70%;
+}
+.create-room-parent button{
+    margin: 1rem 0;
+}
+.selectables {
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+.select-box {
+padding: 0 .5rem;
+    width: 100%;
+}
+.select-box select {
+    margin-top: .5rem 0;
+    padding: .5rem;
+    width: 100%;
+}
+.seller-room-parent {
+    height: 90vh;
+    overflow-y: scroll;
+}
+.seller-working-section {
+    width: 80vw;
+}
+@media screen and (max-width: 800px) {
+    .seller-parent{
+        flex-direction: column;
+    }
+    .seller-working-section{
+        width: 100%;
+    }
+    .selectables{
+        flex-direction: column;
+    }
+    .seller-parent input {
+        width: 100%;
+    }
+}

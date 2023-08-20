@@ -1,0 +1,85 @@
+header {
+  background-color: #fff;
+  /* height: 10vh; */
+  /* box-shadow: 0 5px 30px rgb(0 22 84 / 10%); */
+  /* padding: 15px; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100vw;
+  padding: 5px;
+
+}
+header img {
+  width: 100px;
+}
+header a {
+  /* margin-left: 30px; */
+  margin: 0 10px;
+  transition: 0.5s;
+  font-weight: 500;
+}
+header a:hover {
+  color: #27ae60;
+}
+header span {
+  width: auto;
+  padding: 0px 6px;
+  background: #27ae60;
+  border-radius: 50px;
+  color: #ffffff;
+  margin-right: 4px;
+  font-weight: 400;
+}
+header h4 {
+  font-weight: 500;
+  margin-right: 20px;
+}
+header .toggle {
+  display: none;
+}
+.become-seller-prompt {
+  height: fit-content;
+  height: -moz-fit-content;
+  padding: 2rem;
+  width: fit-content;
+  width: -moz-fit-content;
+  background-color: #f9f9f9;
+  border-radius: 0.5rem;
+  box-shadow: 2px 4px 10px 0 rgba(0, 0, 0, 0.2);
+}
+.btn1{
+  padding: 10px;
+}
+@media screen and (max-width: 768px) {
+  header {
+    padding: 0;
+  }
+  header img {
+    margin-top: 30px;
+  }
+  header .button {
+    display: none;
+  }
+  header .nav .flex {
+    display: none;
+  }
+  header .toggle {
+    display: block;
+    margin-top: 20px;
+  }
+  header .small {
+    position: absolute;
+    top: 10vh;
+    left: 0;
+    width: 100%;
+    background-color: #27ae60;
+    padding: 20px;
+  }
+  header li a {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+}

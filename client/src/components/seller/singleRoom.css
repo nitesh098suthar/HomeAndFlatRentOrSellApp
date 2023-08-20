@@ -1,0 +1,27 @@
+.detailed-room-parent {
+    display: flex;
+    padding: 3rem 1rem;
+}
+.img-corousel {
+    height: 50vh;
+    width: 50vw;
+    position: relative;
+    margin-inline: 1rem;
+}
+.img-corousel img {
+    display: block;
+    position: absolute;
+    object-fit: cover;
+}
+.orange {
+    color: orange;
+}
+.orange span {
+    color: black;
+}
+.single{
+    margin: 4px;
+}
+.single-room{
+    margin: 50px;
+}

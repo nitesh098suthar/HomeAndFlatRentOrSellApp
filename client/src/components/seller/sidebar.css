@@ -1,0 +1,45 @@
+.sidebar-parent {
+  height: 90vh;
+  width: 20vw;
+  background-color: #f7f6f6;
+  position: relative;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  padding: 2rem;
+  margin-top: 50px;
+}
+.sidebar-parent .header {
+  font-variant: small-caps;
+}
+.sidebar-parent .body {
+  position: absolute;
+  top: 5rem;
+  left: 2rem;
+  right: 2rem;
+  transform: translateY(50%);
+}
+.sidebar-parent .body ul li {
+  display: block;
+  padding: 1rem;
+  transition: 0.4s;
+  margin: 0.2rem;
+}
+.sidebar-parent .body ul li:hover {
+  background-color: #e6e6e6;
+}
+.sidebar-parent .body ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.sidebar-parent .footer {
+  position: absolute;
+  bottom: 2rem;
+}
+button[type=submit]{
+  font-size: 12px;
+}
+@media screen and (max-width: 800px) {
+  .sidebar-parent {
+    width: 100%;
+  }
+}
